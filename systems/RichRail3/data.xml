@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<richrail>
+	<wagontype name="w1" seats="20"></wagontype>
+	<wagontype name="w2" seats="20"></wagontype>
+	<train name="thomasch"></train>
+	<train name="t56">
+		<wagon name="w2"></wagon>
+	</train>
+	<train name="t1"></train>
+	<train name="t2"></train>
+</richrail>
