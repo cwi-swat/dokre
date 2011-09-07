@@ -1,0 +1,30 @@
+v0.9.1
+
+This release supports the following hardware, payment gateways, and inventory systems:
+
+1. Hardware
+Keyboard wedge credit card readers
+Keyboard wedge barcode scanners
+Star receipt printers
+Printer driven cash drawers campatible with Star printers
+
+2. Payment Gateways:
+Authorize.net payment gateway
+
+3. Inventory Systems
+osCommerce shopping cart
+
+v0.9.2:
+
+1. Redesigned xml with DTDs. For more information about posXML, please visit http://www.baycloud.com/posXML/1.0.0/
+2. Redesigned database for multi-lane operation
+3. Dynamic loading of credit card payment modules
+4. Customer accounts
+5. Auto synchronizer
+6. JavaPOS MSR
+
+v0.9.3
+
+1. New interface for payment modules
+2. Internationalization (i18n)
+3. webERP integration

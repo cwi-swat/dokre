@@ -1,0 +1,18 @@
+synpos.php and the files under the 'synpos' directory are the only new files that have to be added to your webERP root directory. There are no changes to existing PHP files and database.
+
+A web user account with Inquires/Order Entry access is needed to run this script. This user must be linked to a customer branch. In other words, it must have a customer code and a branch code.
+
+Since webERP supports multi-companies by default, when configuring synPOS, the username must be entered with the company name (or database name) as companename:username in the username field on the "Configuration/Synchronization" panel.
+
+Limitations:
+
+1. Each product must have a unique barcode
+2. Product price must be set and can't be negative
+3. Product quantity must be set.
+4. Category/product name and description can't contain special xml chars such as '&', '<', '>'...
+
+If you want to learn more about this project, please visit the project's website at http://www.synpos.com.
+
+This script is released under under the GNU General Public License. Absolutely no warranty. Use at your own risk.
+
+Copyright (c) 2006 synPOS.com

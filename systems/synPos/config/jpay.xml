@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PaymentGateways PUBLIC "-//synPOS//DTD//EN"
+                             "config/jpay.dtd">
+
+<PaymentGateways>
+  <PaymentGateway>
+    <GatewayId>authorize</GatewayId>
+    <GatewayName>Authorize.net</GatewayName>
+    <GatewayClass>
+    <ClassName>com.baycloud.synpos.payment.Authorize</ClassName>
+    <ClassParameter>
+      <ParameterId>url</ParameterId>
+      <ParameterName>Gateway URL</ParameterName>
+    </ClassParameter>
+    <ClassParameter>
+      <ParameterId>login</ParameterId>
+      <ParameterName>Login</ParameterName>
+    </ClassParameter>
+    <ClassParameter>
+      <ParameterId>transactionKey</ParameterId>
+      <ParameterName>Transaction Key</ParameterName>
+    </ClassParameter>
+    <ClassParameter>
+      <ParameterId>deviceType</ParameterId>
+      <ParameterName>Device Type</ParameterName>
+      <ParameterOption>
+        <OptionName>Unknown</OptionName>
+        <OptionValue>1</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>Unattended Terminal</OptionName>
+        <OptionValue>2</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>Self Service Terminal</OptionName>
+        <OptionValue>3</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>Electronic Cash Register</OptionName>
+        <OptionValue>4</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>Personal Computer-Based Terminal</OptionName>
+        <OptionValue>5</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>AirPay</OptionName>
+        <OptionValue>6</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>Wireless POS</OptionName>
+        <OptionValue>7</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>Website</OptionName>
+        <OptionValue>8</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>Dial Terminal</OptionName>
+        <OptionValue>9</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>Virtual Terminal</OptionName>
+        <OptionValue>10</OptionValue>
+      </ParameterOption>
+    </ClassParameter>
+    <ClassParameter>
+      <ParameterId>transactionType</ParameterId>
+      <ParameterName>Transaction Type</ParameterName>
+      <ParameterOption>
+        <OptionName>Authorize and Capture</OptionName>
+        <OptionValue>AUTH_CAPTURE</OptionValue>
+      </ParameterOption>
+      <ParameterOption>
+        <OptionName>Authorize Only</OptionName>
+        <OptionValue>AUTH_ONLY</OptionValue>
+      </ParameterOption>
+    </ClassParameter>
+    <ClassParameter>
+      <ParameterId>testMode</ParameterId>
+      <ParameterName>Test Mode</ParameterName>
+      <ParameterOption>
+        <OptionName></OptionName>
+        <OptionValue>TRUE</OptionValue>
+      </ParameterOption>
+    </ClassParameter>
+    </GatewayClass>
+    <AcceptedCards>
+      <CreditCard/>
+    </AcceptedCards>
+  </PaymentGateway>
+</PaymentGateways>

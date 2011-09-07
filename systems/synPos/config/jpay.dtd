@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Version: 1.0.0 http://www.synpos.com/jpay/jpay.dtd -->
+
+<!--
+     This is the DTD for synPOS payment gateways.  It defines
+     the content necessary for all synPOS payment gateway entries in their XML file.  Please see the
+     example XML files in the release as well as the synPOS documentation for details
+     on how to create your own XML files that are valid for this DTD.
+     @author H.Q. (hqi@baycloud.com)
+     @since 1.0.0
+-->
+
+<!ELEMENT PaymentGateways (PaymentGateway)*>
+<!ELEMENT PaymentGateway (GatewayId, GatewayName, GatewayClass, AcceptedCards)>
+<!ELEMENT GatewayId (#PCDATA)>
+<!ELEMENT GatewayName (#PCDATA)>
+<!ELEMENT GatewayClass (ClassName, ClassParameter*)>
+<!ELEMENT AcceptedCards (CreditCard?)>
+<!ELEMENT ClassName (#PCDATA)>
+<!ELEMENT ClassParameter (ParameterId, ParameterName, ParameterOption*)>
+<!ELEMENT ParameterId (#PCDATA)>
+<!ELEMENT ParameterName (#PCDATA)>
+<!ELEMENT ParameterOption (OptionName, OptionValue)>
+<!ELEMENT OptionName (#PCDATA)>
+<!ELEMENT OptionValue (#PCDATA)>
+<!ELEMENT CreditCard EMPTY>

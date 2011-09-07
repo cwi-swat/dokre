@@ -1,0 +1,19 @@
+synpos.php is the only one new file that has to be added to the catalog/ directory. There are no changes to existing PHP files.
+
+This script uses username/password to authenticate incoming requests. Run the following SQL scripts to save the username/password in your osCommerce database. Select a new configuration group number if 16 already exists in your database. The default username/password is 123/123.
+
+INSERT INTO configuration_group VALUES ('16', 'synPOS', 'synPOS options', '16', '1');
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) VALUES ('synPOS Username', 'SYNPOS_USERNAME', '123', 'The username required for calling the synPOS synchronization script', '16', '1', now());
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) VALUES ('synPOS Password', 'SYNPOS_PASSWORD', '123', 'The password required for calling the synPOS synchronization script', '16', '2', now());
+
+Limitations:
+
+1. Each product must have an unique product number. This unique number can be a barcode or a store assigned number. This script uses the products_model field in the products table to store this number.
+2. osCommerce product attributes (options) are not supported.
+4. Category/product name and description can't contain special xml chars such as '&', '<', '>'...
+
+If you want to learn more about this project, please visit the project's website at http://www.synpos.com.
+
+This script is released under under the GNU General Public License. Absolutely no warranty. Use at your own risk.
+
+Copyright (c) 2006 synPOS.com

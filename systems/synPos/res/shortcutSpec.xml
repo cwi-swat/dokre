@@ -1,0 +1,44 @@
+<shortcuts>
+  <skipIfNotSupported/>
+  <programGroup defaultName="synPOS"
+                location="applications"/>
+  <shortcut
+    name="synPOS 0.9.3"
+    target="$INSTALL_PATH\launcher.bat"
+    commandLine=""
+    workingDirectory="$INSTALL_PATH"
+    description="This starts synPOS"
+    initialState="noShow"
+    programGroup="yes"
+    desktop="yes"
+    applications="no"
+    startMenu="no"
+    startup="no">
+  </shortcut>
+  <shortcut
+    name="Database Manager"
+    target="$INSTALL_PATH\dbmanager.bat"
+    commandLine=""
+    workingDirectory="$INSTALL_PATH"
+    description="This starts HSQLDB Database Manager"
+    initialState="noShow"
+    programGroup="yes"
+    desktop="no"
+    applications="no"
+    startMenu="no"
+    startup="no">
+  </shortcut>
+  <shortcut
+    name="synPOS Uninstaller"
+    target="$INSTALL_PATH\Uninstaller\uninstaller.jar"
+    commandLine=""
+    workingDirectory="$INSTALL_PATH\Uninstaller"
+    description="synPOS uninstaller"
+    initialState="noShow"
+    programGroup="yes"
+    desktop="no"
+    applications="no"
+    startMenu="no"
+    startup="no">
+  </shortcut>
+</shortcuts>

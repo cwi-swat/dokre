@@ -1,0 +1,371 @@
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Unknown command, type 'help'
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Unknown command, type 'help'
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - please use: 'add <wagonname> to <trainname>'
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (asd) with 20 seats
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (asd) with 20 seats
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (a) with 2 seats
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (b) with 20 seats
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (b) with 20 seats
+INFO AWT-EventQueue-0 richrail.domain.Train - new train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (b) to train (as)
+FATAL AWT-EventQueue-0 richrail.commandline.Interpreter - Help Constructor is not public!
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - please use: 'add <wagonname> to <trainname>'
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Unknown command, type 'help'
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Unknown command, type 'help'
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Available commands:
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	new train <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	new wagon <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	new wagon <name> numseats <int>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	add <wagonname> to <trainname>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	getnumseats train <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	getnumseats wagon <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	delete train <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	delete wagon <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	remove <wagonname> from <trainname>
+INFO AWT-EventQueue-0 richrail.domain.Train - new train (x)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (wg1) to train (x)
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - please use: 'new <train|wagon> <name>' or 'new wagon <name> numseats <int>'
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (p) with 5 seats
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (p) to train (x)
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - please use: 'getnumseats <train|wagon> <name>'
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Unknown command, type 'help'
+INFO AWT-EventQueue-0 richrail.domain.Train - removing wagon (wg1) to train (x)
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - number of seats in train x:5
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.domain.Train - new train (x)
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Unknown command, type 'help'
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (x) with 50 seats
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Unknown command, type 'help'
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - hoi
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - hoi
+INFO AWT-EventQueue-0 richrail.domain.Train - new train (heijmen)
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Available commands:
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	new train <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	new wagon <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	new wagon <name> numseats <int>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	add <wagonname> to <trainname>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	getnumseats train <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	getnumseats wagon <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	delete train <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	delete wagon <name>
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - 	remove <wagonname> from <trainname>
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - Unknown command, type 'help'
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (x) with 20 seats
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (xx) with 4 seats
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.domain.Train - new train (kujhkjh)
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (,jh) with 52 seats
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (hkl) with 321 seats
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (,jh) to train (tr1)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (hkl) to train (tr1)
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.domain.Train - new train (tr4;)
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (wg6) to train (tr4;)
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - train does not exist
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - please use: 'delete <train|wagon> <name>'
+INFO AWT-EventQueue-0 richrail.domain.Train - removing wagon (wg5) to train (tr2)
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - number of seats in train tr4;:20
+INFO AWT-EventQueue-0 richrail.domain.Wagon - new wagon (wgch) with 50 seats
+INFO AWT-EventQueue-0 richrail.domain.Train - adding wagon (wgch) to train (tr2)
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - number of seats in train tr2:70
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - hoi
+INFO AWT-EventQueue-0 richrail.domain.Train - new train (heijmen)
+DEBUG main richrail.Main - start
+DEBUG main richrail.Main - creating dummy trains
+INFO main richrail.domain.Train - new train (tr1)
+INFO main richrail.domain.Train - new train (tr2)
+INFO main richrail.domain.Train - new train (tr3)
+DEBUG main richrail.Main - creating dummy wagons
+INFO main richrail.domain.Wagon - new wagon (wg1) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg2) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg3) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg4) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg5) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg6) with 20 seats
+INFO main richrail.domain.Wagon - new wagon (wg7) with 20 seats
+DEBUG main richrail.Main - adding wagons to trains
+INFO main richrail.domain.Train - adding wagon (wg5) to train (tr2)
+INFO main richrail.domain.Train - adding wagon (wg3) to train (tr2)
+DEBUG main richrail.Main - terminated
+INFO AWT-EventQueue-0 richrail.commandline.Interpreter - hoi
+INFO AWT-EventQueue-0 richrail.domain.Train - new train (heijmen)

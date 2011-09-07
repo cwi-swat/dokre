@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+                             "config/jcl.dtd">
+<JposEntries>
+  <!--Saved by JavaPOS jpos.config/loader (JCL) version 2.0.1 on 2/5/03 2:24 PM-->
+  <JposEntry logicalName="msr-keyboard-wedge">
+    <creation factoryClass="" serviceClass=""/>
+    <vendor name="Generic" url=""/>
+    <jpos category="MSR" version="1.4a"/>
+    <product description="Generic keyboard wedge MSR" name="KWMSR" url=""/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-tearbar-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Dot-matrix receipt printer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP512"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-tearbar-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Dot-matrix receipt printer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP512"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-tearbar-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Dot-matrix receipt printer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP512"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":4,0080"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-tearbar-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Dot-matrix receipt printer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP512"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":4,0080"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-cutter-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Dot-matrix receipt printer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP542"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-cutter-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Dot-matrix receipt printer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP542"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-cutter-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Dot-matrix receipt printer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP542"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":4,0080"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-cutter-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Dot-matrix receipt printer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP542"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":4,0080"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="5000"/>
+    <prop name="timeout" type="Long" value="5000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="1000"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP600"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP600"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="5000"/>
+    <prop name="timeout" type="Long" value="5000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="1000"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP600"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP600"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP700"/>
+    <prop name="errorResponseTimeout" type="Long" value="0"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP700"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="5000"/>
+    <prop name="timeout" type="Long" value="5000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="1000"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP800"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP800"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TUP1000"/>
+    <prop name="errorResponseTimeout" type="Long" value="0"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP1000"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+  </JposEntry>
+  <JposEntry logicalName="TUP900-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TUP900" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="5000"/>
+    <prop name="timeout" type="Long" value="5000"/>
+    <prop name="starModel" type="String" value="TUP900"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTUP900"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="1000"/>
+    <prop name="memorySwitchSetting" type="String" value=":7,0100"/>
+  </JposEntry>
+  <JposEntry logicalName="TUP900-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TUP900" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TUP900"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TUP900"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTUP900"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":7,0100"/>
+  </JposEntry>
+  <JposEntry logicalName="TUP900-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TUP900" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TUP900"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TUP900"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTUP900"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":7,0100"/>
+  </JposEntry>
+  <JposEntry logicalName="TUP900-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TUP900" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TUP900"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTUP900"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":7,0100"/>
+  </JposEntry>
+  <JposEntry logicalName="TUP900-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TUP900" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TUP900"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTUP900"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":7,0100"/>
+  </JposEntry>
+  <JposEntry logicalName="TUP900-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TUP900" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TUP900"/>
+    <prop name="capRecRaster" type="Boolean" value="false"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTUP900"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":7,0100"/>
+  </JposEntry>
+  <JposEntry logicalName="TUP900-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TUP900" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TUP900"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTUP900"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":7,0100"/>
+  </JposEntry>
+  <JposEntry logicalName="TUP900-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.POSPrinterService"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="POSPrinter" version="1.4a"/>
+    <product description="Thermal receipt printer" name="TUP900" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="capLogoStore" type="Boolean" value="false"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TUP900"/>
+    <prop name="capRecRaster" type="Boolean" value="true"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTUP900"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="memorySwitchSetting" type="String" value=":7,0100"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-tearbar-cashdrawer-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP512"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-tearbar-cashdrawer-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP512"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-tearbar-cashdrawer-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP512"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-tearbar-cashdrawer-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP512"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-cutter-cashdrawer-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP542"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-cutter-cashdrawer-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP542"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-cutter-cashdrawer-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP542"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="SP500-cutter-cashdrawer-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="SP500" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="SP500"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceSP542"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-cashdrawer-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-cashdrawer-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP600"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-cashdrawer-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP600"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-cashdrawer-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-cashdrawer-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-cashdrawer-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-cashdrawer-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-tearbar-cashdrawer-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP613"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-cashdrawer-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-cashdrawer-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP600"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-cashdrawer-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP600"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-cashdrawer-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-cashdrawer-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-cashdrawer-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-cashdrawer-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP600-cutter-cashdrawer-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP643"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-cashdrawer-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-cashdrawer-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP700"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-cashdrawer-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP700"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-cashdrawer-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-cashdrawer-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-cashdrawer-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-cashdrawer-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP700-cashdrawer-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP700" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP700"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP700"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-cashdrawer-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP600" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP600"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-cashdrawer-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP800"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-cashdrawer-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP800"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-cashdrawer-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-cashdrawer-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-cashdrawer-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-cashdrawer-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP800-cashdrawer-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP800" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP800"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP847"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-cashdrawer-ethernet">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="SOCKET:192.168.32.72"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="9100"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-cashdrawer-mac-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP1000"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-cashdrawer-linux-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:TSP1000"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-cashdrawer-windows-usb">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="USB:COM4"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-cashdrawer-linux-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/ttyS0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-cashdrawer-windows-serial">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="COM1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="9600,none,8,1,hdwr"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-cashdrawer-linux-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="/dev/parport0"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+  <JposEntry logicalName="TSP1000-cashdrawer-windows-parallel">
+    <creation factoryClass="com.starmicronics.javapos.ServiceInstanceFactory" serviceClass="com.starmicronics.javapos.StarJPOSCashDrawer"/>
+    <vendor name="Star Micronics Co., Ltd." url="http://www.star-micronics.co.jp"/>
+    <jpos category="CashDrawer" version="1.4a"/>
+    <product description="Printer controlled Cash Drawer" name="TSP1000" url="http://www.star-micronics.co.jp"/>
+    <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    <prop name="portName" type="String" value="LPT1"/>
+    <prop name="errorResponseTimeout" type="Long" value="5000"/>
+    <prop name="statusTimeout" type="Long" value="500"/>
+    <prop name="timeout" type="Long" value="10000"/>
+    <prop name="starModel" type="String" value="TSP1000"/>
+    <prop name="deviceClassName" type="String" value="com.starmicronics.javapos.DeviceTSP1000"/>
+    <prop name="portSettings" type="String" value="no settings required or accepted"/>
+    <prop name="statusTimeDelay" type="Long" value="500"/>
+    <prop name="cashDrawer1" type="Boolean" value="true"/>
+    <prop name="drawerClosedOnSignalLow" type="Boolean" value="false"/>
+  </JposEntry>
+</JposEntries>
